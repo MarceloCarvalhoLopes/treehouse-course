@@ -1,0 +1,7 @@
+/* :nth-child Pseudo-classes------------------ */
+
+li:nth-child(even){
+  background:#52bab3;
+  color:white;
+}
+

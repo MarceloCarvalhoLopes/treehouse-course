@@ -1,0 +1,152 @@
+﻿/* ================================= 
+  Base Styles
+==================================== */
+
+*{
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p{
+	font-size:.95m;
+	margin-bottom:1.95em;
+}
+
+h2,
+h3,
+a{
+	color: #093a58;
+}
+
+h2,
+h3
+{
+	margin-top:0;
+}
+
+a{
+	text-decoration:none;
+	
+}
+
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.name,
+.main-nav li{
+	text-align:center;
+	background: #fff;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
+.name a,
+.main-nav a{
+	padding: 10px 15px;
+	display:block;
+}
+
+.main-nav a {
+	font-size: .95em;
+	text-transform: uppercase;
+	color: #EC7063;
+}
+
+.main-nav a:hover{
+	color:#17202A;
+}
+
+
+/* ---- Layout Containers ---- */
+
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+.main-header{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background:#EC7063;	
+	margin-bottom: 30px;
+}
+
+.main-footer{
+	text-align:center;
+	padding:2em 0 ;
+	background:#FDEDEC;  
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media(min-width:789px){
+	
+	.wrap{
+		min-height:calc(100vh - 89px);
+	}
+	
+	.container{
+		width:85%;	
+		margin: 0 auto;
+		max-width:1150px;
+		border:solid 1px red;
+	}
+
+	.main-nav {
+		float: right;
+	}
+		
+	.name,
+	.main-nav li{
+		float:left;
+	}
+
+	.main-nav li{
+		margin-left:12px;
+	}
+	
+	
+/* ---- Columns ---- */
+	
+	.col{
+		float: right;
+		padding-left:1em;
+		padding-right:1em;
+	}	
+
+	.primary {
+		width: 60%;
+	}
+	
+	.secundary {
+		width: 40%;
+	}
+	
+	.feat-img{
+		width:300px;
+		float:left;
+		margin-top:5px;
+		margin-right:25px;
+		margin-bottom:25px;
+		padding:10px;
+		border: solid 1px #DCDCDC;
+	}
+	
+	.clearfix::after{
+		content:"";
+		display:table;
+		clear:both;
+	}
+}

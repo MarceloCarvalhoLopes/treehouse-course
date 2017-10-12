@@ -1,0 +1,46 @@
+/* ================================= 
+  Flexbox
+==================================== */
+
+
+.container{
+  display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+  /*flex-direction: column;
+  height: 280px; */
+  justify-content: space-between;
+  
+}
+
+
+/*Distribuing space inside the flex container*/
+/*
+.item-1{
+  margin-right: auto;
+
+}
+*/
+
+/*Changing the Order of Flex Items*/
+/*
+.item-5{
+  order:-1;
+}
+
+.item-1{
+  order: -2;
+}
+*/
+
+/*Growing Flex Items*/
+
+.item{
+  flex-grow: 1;
+
+}
+
+.item-1{
+  flex-grow: 3;
+
+}

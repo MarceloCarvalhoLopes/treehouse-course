@@ -1,0 +1,105 @@
+﻿/* ================================= 
+  Base Element Styles
+==================================== */
+
+*{
+	box-sizing:border-box;
+	
+}
+
+body{
+	color: #3a3a3a;
+	line-height:1.6;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+/*Navigation*/
+
+a{
+	text-decoration:none;
+
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.name{
+	margin:0;
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+	background: #fff;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+
+
+/* ---- Layout Containers ---- */
+
+.container{
+	padding-left:1.5em;
+	padding-right:1.5em;
+}
+
+.main-header{
+	background:#3acec2;
+	padding:1.5em 0;
+}
+
+.main-footer{
+	text-align:center;
+	padding:2em 0;
+	background: #d9e4ea;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media(min-width:769px){
+	
+	.container{
+		width:70%;
+		margin:0 auto;
+		max-width:1000px;
+	}	
+	
+	.wrap{
+		min-height:calc(100vh - 89px);	
+	}
+	
+	.name,
+	.main-nav,
+	.main-nav li{
+		display:inline-block;
+	}
+	
+	.main-nav li{
+		margin-right:12px;
+		
+	}
+	
+	.name{
+		width:240px;
+		margin-right:50px;
+	}
+}

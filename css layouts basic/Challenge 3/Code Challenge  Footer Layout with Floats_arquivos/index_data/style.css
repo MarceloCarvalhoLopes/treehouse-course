@@ -1,0 +1,22 @@
+/* Complete the challenge by writing CSS below */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-nav {
+  float:left;
+}
+.logo{
+  float:right;
+}
+
+.footer-nav li {
+float: left;
+}
+
+.copyright{
+  clear:both;
+
+}
